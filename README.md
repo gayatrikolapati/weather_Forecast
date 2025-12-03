@@ -44,6 +44,7 @@ The app remains responsive even when many requests are being processed.
 Async is especially powerful when fetching external data, as network latency is handled efficiently.
 
 📌 Features
+
 🔎 Search Multiple Cities
 
 Users can enter multiple city names at once (comma-separated), and the app fetches their weather in a single click.
