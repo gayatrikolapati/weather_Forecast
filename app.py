@@ -27,7 +27,7 @@ async def fetch_all(cities):
 
 st.set_page_config(page_title="Weather App", page_icon="🌤", layout="centered")
 
-st.title("🌤 Async Weather App")
+st.title("🌤 Weather App")
 
 city_input = st.text_input("Enter city names (comma separated)")
 
@@ -60,3 +60,4 @@ if st.button("Get Weather"):
                 st.write(f"⛅ **Condition:** {desc}")
                 st.write(f"💨 **Wind:** {wind} m/s")
                 st.markdown("---")
+
