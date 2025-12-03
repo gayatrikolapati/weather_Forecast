@@ -5,6 +5,7 @@ This app retrieves real-time weather updates for multiple cities simultaneously 
 Designed with a clean and minimal interface, it delivers essential weather information instantly.
 
 🚀 Tech Stack 
+
 Streamlit
 
 A Python framework used to build the interactive web UI.
@@ -26,6 +27,7 @@ A reliable and widely-used weather data provider.
 It offers accurate real-time data such as temperature, humidity, weather description, and wind speed for any city.
 
 ⚡ Why Async? 
+
 🔹 Parallel Requests
 
 Instead of fetching weather for each city one by one, all city requests are made at the same time.
@@ -44,6 +46,7 @@ The app remains responsive even when many requests are being processed.
 Async is especially powerful when fetching external data, as network latency is handled efficiently.
 
 📌 Features
+
 
 🔎 Search Multiple Cities
 
